@@ -7,11 +7,11 @@ def test_simple_sequence_two_maxima():
     assert exp == out
 
 
-#def test_max_on_both_borders():
-#    inp = [4, 2, 1, 3, 1, 2]
-#    out = find_maxima(inp)
-#    exp = [0, 3, 5]
-#    assert exp == out
+def test_max_on_both_borders():
+    inp = [4, 2, 1, 3, 1, 2]
+    out = find_maxima(inp)
+    exp = [0, 3, 5]
+    assert exp == out
 
 def test_simple_sequence_one_maxima():
     inp = [-i**2 for i in range(-3, 4)]
